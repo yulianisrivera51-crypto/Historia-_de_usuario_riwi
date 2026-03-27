@@ -28,7 +28,7 @@ while validarPrecio:
             validarPrecio = False
 
         else:
-            print("Error: el precio del producto es positivo.")
+            print("Error: el precio del producto es negativo.")
 
     except ValueError:
         print("Error: porfavor ingrese un numero valido")
