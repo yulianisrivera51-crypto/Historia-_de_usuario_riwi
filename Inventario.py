@@ -7,7 +7,7 @@ def calculoTotalProducto (cantidad, precio ):
 
 # request user data
 validarProducto = True
-while validarProducto == True:
+while validarProducto:
     nombreProducto = input("Ingresa el nombre del Producto: ").strip()
 
     if nombreProducto and not nombreProducto.isdigit():
