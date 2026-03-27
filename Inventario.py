@@ -14,7 +14,7 @@ while validarProducto:
         validarProducto = False
 
     elif nombreProducto.isdigit():
-        print("Error: no se permiten solo nombres en el inventario.")
+        print("Error: no se permiten solo numeros en el inventario.")
     
     else:
         print("Error: el nombre del producto no puede estar vacio.")
